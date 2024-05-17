@@ -1,11 +1,12 @@
 terraform {
-  required_version = "~> 1.6.0"
+  required_version = "~> 1.8.0"
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 5.19.0"
+      version = "~> 5.49.0"
     }
   }
+  backend "remote" {}
 }
 
 provider "aws" {

@@ -1,0 +1,5 @@
+#vim:ft=hcl
+organization = "bdeshi.space"
+workspaces {
+  name = "aws-prod-pre-base"
+}
