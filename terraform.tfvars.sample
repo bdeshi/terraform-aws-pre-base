@@ -1,3 +1,4 @@
-org_name = "bdeshi.space"
-aws_region = "us-east-1"
+#vim:ft=hcl
+org_name    = "bdeshi.space"
+aws_region  = "us-east-1"
 git_project = "git@git.bdeshi.space:bdeshi/terraform-aws-pre-base.git"

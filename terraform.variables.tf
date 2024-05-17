@@ -17,7 +17,7 @@ variable "aws_region" {
 variable "iac_username" {
   type        = string
   description = "IAM user to create with admin access; for use by subsequent IaC projects"
-  default = "iac"
+  default     = "iac"
 }
 
 variable "kms_alias" {
